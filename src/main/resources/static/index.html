@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScamShield India - Is this a scam?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">ScamShield <span>India</span></div>
+    <p class="tag">Paste a suspicious SMS, WhatsApp message, email, UPI request or link. Get a verdict, the red flags, and what to do next.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="input card">
+    <label for="msg" class="lbl">Message</label>
+    <textarea id="msg" rows="7" maxlength="5000" placeholder="Paste the message here..."></textarea>
+    <div class="row">
+      <select id="channel" aria-label="Where did you receive it?">
+        <option value="">Received via...</option>
+        <option value="sms">SMS</option>
+        <option value="whatsapp">WhatsApp</option>
+        <option value="email">Email</option>
+        <option value="upi">UPI app request</option>
+        <option value="url">Link / website</option>
+        <option value="call">Phone call (describe it)</option>
+      </select>
+      <button id="check" type="button">Check</button>
+    </div>
+    <div class="examples">
+      <span class="lbl-sm">Try an example:</span>
+      <div id="chips"></div>
+    </div>
+    <p class="note">Do not paste real passwords, card numbers or OTPs. Messages are analysed and not stored.</p>
+  </section>
+
+  <section id="result" class="hidden">
+    <div id="verdict" class="card verdict">
+      <div class="v-head">
+        <div>
+          <div id="v-label" class="v-label"></div>
+          <div id="v-type" class="v-type"></div>
+        </div>
+        <div class="v-score"><span id="v-score"></span><small>/100 risk</small></div>
+      </div>
+      <div class="meter"><div id="v-bar"></div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Red flags in your message</h2>
+        <div id="highlighted" class="highlighted"></div>
+        <ul id="flags" class="flags"></ul>
+      </div>
+      <div class="card">
+        <h2>Why</h2>
+        <p id="explanation"></p>
+        <h3>Sources</h3>
+        <ul id="citations" class="cites"></ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>What to do now</h2>
+      <ol id="actions" class="actions"></ol>
+      <p class="help">Lost money? Call the National Cybercrime Helpline <strong>1930</strong> or report at
+        <a href="https://cybercrime.gov.in" target="_blank" rel="noopener">cybercrime.gov.in</a>.
+        Report fraud messages on <a href="https://sancharsaathi.gov.in/sfc/" target="_blank" rel="noopener">Sanchar Saathi (Chakshu)</a>.</p>
+    </div>
+
+    <details class="card why">
+      <summary>Why this verdict (how the score was computed)</summary>
+      <div id="why"></div>
+    </details>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  Rule engine + retrieval over official advisories (I4C, DoT Sanchar Saathi) + local LLM. Not legal or financial advice.
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
