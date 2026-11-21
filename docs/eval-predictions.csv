@@ -1,0 +1,61 @@
+id,label,true_type,verdict,risk,rule,llm,mode,pred_type,latency
+s01,scam,FAKE_KYC_ACCOUNT_BLOCK,Likely Scam,90,85,95,hybrid,Fake KYC / account-block,7.614260673522949
+s02,scam,FAKE_KYC_ACCOUNT_BLOCK,Likely Scam,75,65,85,hybrid,Fake KYC / account-block,7.890135288238525
+s03,scam,FAKE_KYC_ACCOUNT_BLOCK,Likely Scam,93,90,95,hybrid,Fake KYC / account-block,9.075153112411499
+s04,scam,FAKE_KYC_ACCOUNT_BLOCK,Likely Scam,88,80,95,hybrid,Fake KYC / account-block,7.93420672416687
+s05,scam,FAKE_KYC_ACCOUNT_BLOCK,Likely Scam,70,50,90,hybrid,Fake KYC / account-block,8.234973192214966
+s06,scam,UPI_COLLECT_FRAUD,Likely Scam,98,100,95,hybrid,UPI collect-request fraud,8.756473541259766
+s07,scam,UPI_COLLECT_FRAUD,Likely Scam,90,85,95,hybrid,UPI collect-request fraud,7.107087135314941
+s08,scam,UPI_COLLECT_FRAUD,Likely Scam,98,100,95,hybrid,UPI collect-request fraud,6.858252763748169
+s09,scam,UPI_COLLECT_FRAUD,Likely Scam,63,40,85,hybrid,UPI collect-request fraud,9.488002061843872
+s10,scam,UPI_COLLECT_FRAUD,Likely Scam,78,65,90,hybrid,UPI collect-request fraud,7.730206251144409
+s11,scam,FAKE_JOB_TASK,Suspicious,58,30,85,hybrid,Fake job / task scam,6.50794243812561
+s12,scam,FAKE_JOB_TASK,Likely Scam,65,45,85,hybrid,Fake job / task scam,6.904201984405518
+s13,scam,FAKE_JOB_TASK,Likely Scam,63,40,85,hybrid,Fake job / task scam,5.935074090957642
+s14,scam,FAKE_JOB_TASK,Suspicious,55,15,95,hybrid,Fake job / task scam,8.086522817611694
+s15,scam,LOTTERY_PRIZE,Likely Scam,78,60,95,hybrid,Lottery / prize scam,7.131017684936523
+s16,scam,LOTTERY_PRIZE,Likely Scam,70,45,95,hybrid,Lottery / prize scam,8.0157151222229
+s17,scam,LOTTERY_PRIZE,Likely Scam,63,40,85,hybrid,Fake KYC / account-block,7.208017587661743
+s18,scam,LOAN_APP,Likely Scam,80,70,90,hybrid,Loan app scam,9.780534267425537
+s19,scam,LOAN_APP,Suspicious,58,30,85,hybrid,Loan app scam,6.48963737487793
+s20,scam,LOAN_APP,Likely Scam,78,60,95,hybrid,Loan app scam,7.809708833694458
+s21,scam,ELECTRICITY_BILL,Likely Scam,73,60,85,hybrid,Electricity-bill disconnection scam,6.214789390563965
+s22,scam,ELECTRICITY_BILL,Likely Scam,90,95,85,hybrid,Electricity-bill disconnection scam,6.244068622589111
+s23,scam,ELECTRICITY_BILL,Likely Scam,78,70,85,hybrid,Electricity-bill disconnection scam,8.33388638496399
+s24,scam,COURIER_CUSTOMS,Likely Scam,73,50,95,hybrid,Courier / customs scam,9.286689281463623
+s25,scam,COURIER_CUSTOMS,Likely Scam,98,100,95,hybrid,Courier / customs scam,28.324477434158325
+s26,scam,COURIER_CUSTOMS,Likely Scam,68,45,90,hybrid,Courier / customs scam,8.043633937835693
+s27,scam,INVESTMENT_TRADING,Suspicious,58,30,85,hybrid,Investment / trading-group scam,5.99794602394104
+s28,scam,INVESTMENT_TRADING,Likely Scam,65,45,85,hybrid,Investment / trading-group scam,6.454474925994873
+s29,scam,INVESTMENT_TRADING,Likely Scam,65,45,85,hybrid,Investment / trading-group scam,5.988744020462036
+s30,scam,IMPERSONATION,Likely Scam,80,65,95,hybrid,Impersonation (bank / police / digital arrest),7.895081996917725
+s31,scam,IMPERSONATION,Likely Scam,73,50,95,hybrid,Impersonation (bank / police / digital arrest),7.190315008163452
+s32,scam,IMPERSONATION,Suspicious,58,20,95,hybrid,Impersonation (bank / police / digital arrest),7.294971704483032
+s33,scam,IMPERSONATION,Likely Scam,60,35,85,hybrid,Impersonation (bank / police / digital arrest),8.401328086853027
+s34,scam,PHISHING_LINK,Likely Scam,78,60,95,hybrid,Fake KYC / account-block,8.438267469406128
+s35,scam,PHISHING_LINK,Likely Scam,60,35,85,hybrid,Phishing link,8.00473952293396
+s36,scam,PHISHING_LINK,Likely Scam,88,80,95,hybrid,Phishing link,8.723941564559937
+g01,genuine,NONE,Safe,3,0,5,hybrid,None,6.066638469696045
+g02,genuine,NONE,Safe,3,0,5,hybrid,None,4.135233640670776
+g03,genuine,NONE,Safe,5,0,10,hybrid,None,4.140859842300415
+g04,genuine,NONE,Safe,3,0,5,hybrid,None,4.689915180206299
+g05,genuine,NONE,Safe,3,0,5,hybrid,None,5.057901859283447
+g06,genuine,NONE,Safe,0,0,0,hybrid,None,4.591784477233887
+g07,genuine,NONE,Safe,0,0,0,hybrid,None,4.435927152633667
+g08,genuine,NONE,Safe,0,0,0,hybrid,None,5.872162818908691
+g09,genuine,NONE,Safe,3,0,5,hybrid,None,6.0282111167907715
+g10,genuine,NONE,Safe,3,0,5,hybrid,None,5.394242286682129
+g11,genuine,NONE,Safe,5,0,10,hybrid,None,5.2612221240997314
+g12,genuine,NONE,Safe,0,0,0,hybrid,None,4.670957088470459
+g13,genuine,NONE,Safe,3,0,5,hybrid,None,5.612689018249512
+g14,genuine,NONE,Safe,0,0,0,hybrid,None,7.3520684242248535
+g15,genuine,NONE,Safe,0,0,0,hybrid,None,4.782843112945557
+g16,genuine,NONE,Safe,3,0,5,hybrid,None,4.457930564880371
+g17,genuine,NONE,Safe,3,0,5,hybrid,None,5.867372035980225
+g18,genuine,NONE,Safe,5,0,10,hybrid,None,5.850339651107788
+g19,genuine,NONE,Safe,5,0,10,hybrid,None,5.090158224105835
+g20,genuine,NONE,Safe,0,0,0,hybrid,None,4.5286030769348145
+g21,genuine,NONE,Safe,5,0,10,hybrid,None,4.084241151809692
+g22,genuine,NONE,Safe,3,0,5,hybrid,None,4.829829454421997
+g23,genuine,NONE,Safe,0,0,0,hybrid,None,4.583038806915283
+g24,genuine,NONE,Safe,0,0,0,hybrid,None,5.098045110702515

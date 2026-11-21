@@ -1,8 +1,8 @@
-FROM eclipse-temurin:21-jdk AS build
+﻿FROM eclipse-temurin:21-jdk AS build
 WORKDIR /src
 COPY .mvn .mvn
 COPY mvnw pom.xml ./
-RUN sed -i 's#-Dmaven.repo.local=.*##' .mvn/maven.config && chmod +x mvnw && ./mvnw -B -q dependency:go-offline
+RUN rm -f .mvn/maven.config && chmod +x mvnw && ./mvnw -B -q dependency:go-offline
 COPY src src
 RUN ./mvnw -B -q package -DskipTests
 
