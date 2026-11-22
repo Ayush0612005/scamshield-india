@@ -10,6 +10,8 @@ Paste a suspicious SMS, WhatsApp message, email, UPI payment request or link. Sc
 
 Built for Arthaton 2026 (AI for finance: scam and fraud detection).
 
+**Demo video (2:57):** https://youtu.be/vLxL7RPN0Yk
+
 ![ScamShield checking a UPI collect-request scam](docs/screenshot.jpg)
 
 ## How it works
